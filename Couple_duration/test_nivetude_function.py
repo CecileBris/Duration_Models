@@ -6,7 +6,7 @@ Created on Sun Nov 27 19:36:12 2022
 """
 
 import unittest
-
+import nivetude from Couple_duration_datapreprocess
 
 def test_nivetude():
     assert nivetude(00) == 0, "Should be 0"
