@@ -5,6 +5,8 @@ Created on Sun Nov 27 19:36:12 2022
 @author: ceecy
 """
 
+import unittest
+
 
 def test_nivetude():
     assert nivetude(00) == 0, "Should be 0"
@@ -14,5 +16,4 @@ def test_nivetude():
 
 
 if __name__ == "__main__":
-    test_nivetude()
-    print("Everything passed")
+    unittest.main()
